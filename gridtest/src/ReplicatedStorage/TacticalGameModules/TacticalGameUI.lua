@@ -480,7 +480,7 @@ function TacticalGameUI:UpdateUI(gameState)
 end
 
 
-	-- Show a notification message
+-- Show a notification message
 function TacticalGameUI:ShowNotification(message, color, duration)
 	color = color or UI_COLORS.Highlight
 	duration = duration or 3
